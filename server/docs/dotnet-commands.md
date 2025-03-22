@@ -35,3 +35,10 @@ dotnet build  # server dir
 dotnet run --project src/BlueprintsConsoleApp
 
 ```
+
+## Project References
+
+```sh
+# server/src/BlueprintsConsoleApp
+dotnet add reference ../BlueprintsDataModel/BlueprintsDataModel.csproj
+```
