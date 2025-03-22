@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{917AD112-A16D-4020-8B4E-C79EFEE2719F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueprintsConsoleApp", "src\BlueprintsConsoleApp\BlueprintsConsoleApp.csproj", "{8FCA6F15-1FE4-48C4-BAFA-95D4B8B72AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueprintsDataModel", "src\BlueprintsDataModel\BlueprintsDataModel.csproj", "{A5602FB5-E9F2-4EF7-864D-29FC7D409CE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FCA6F15-1FE4-48C4-BAFA-95D4B8B72AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCA6F15-1FE4-48C4-BAFA-95D4B8B72AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCA6F15-1FE4-48C4-BAFA-95D4B8B72AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCA6F15-1FE4-48C4-BAFA-95D4B8B72AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5602FB5-E9F2-4EF7-864D-29FC7D409CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5602FB5-E9F2-4EF7-864D-29FC7D409CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5602FB5-E9F2-4EF7-864D-29FC7D409CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5602FB5-E9F2-4EF7-864D-29FC7D409CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FCA6F15-1FE4-48C4-BAFA-95D4B8B72AE7} = {917AD112-A16D-4020-8B4E-C79EFEE2719F}
+		{A5602FB5-E9F2-4EF7-864D-29FC7D409CE8} = {917AD112-A16D-4020-8B4E-C79EFEE2719F}
+	EndGlobalSection
+EndGlobal
